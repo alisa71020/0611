@@ -6,5 +6,8 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: url("img/");
+    background-image: url("img/1654602687677-六一-李泽言-A.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
