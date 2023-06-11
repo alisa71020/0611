@@ -14,7 +14,10 @@
 }
 .xin{
     width: 100px;
-    height: 100vh;
+    cursor: pointer;
     background-image: url("img/01.png");
+
+}
+.logo{
 
 }
