@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Adobe 繁黑體 Std B";
+}
+.banner{
+    width: 100%;
+    height: 50%;
+    background-image: url("img/180708-10152-1-J2OEU.jpg");
+}
