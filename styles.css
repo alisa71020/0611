@@ -23,9 +23,10 @@
 }
 .box{
     width: 400px;
-    height: 50px;;
+    height: 80px;;
     margin: 0 auto;/*區塊置中*/
 }
 p{
     text-align:center;
 }
+
