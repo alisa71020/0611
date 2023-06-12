@@ -22,9 +22,8 @@
     overflow: hidden;
 }
 .box{
-    width: 200px;
-    height: 200px;
-    background: #ecd6c7;
+    width: 100px;
+    height: 50px;;
     margin: 0 auto;/*區塊置中*/
 }
 p{
