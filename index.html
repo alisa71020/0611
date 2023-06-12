@@ -23,6 +23,10 @@
             background-image: url("img/1654602650745-六一-白起-A.png");
             background-repeat: no-repeat;
         }
+        .man-gp{
+            background-image: url("img/1654602629145-六一-白起-B.png");
+            background-repeat: no-repeat;
+        }
     </style>
 </head>
 <body>
@@ -37,6 +41,17 @@
         })
         $("#sd").on("mousedown", function () {
             $("#sd").removeClass("man-p");
+            $("#sd").addClass("man-op");
+        })
+    });
+    $(function () {
+
+        $("#sd").on("mouseup", function () {
+            $("#sd").removeClass("man-np");
+            $("#sd").addClass("man-p");
+        })
+        $("#sd").on("mousedown", function () {
+            $("#sd").removeClass("man-np");
             $("#sd").addClass("man-op");
         })
     });
