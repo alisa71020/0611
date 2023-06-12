@@ -21,3 +21,12 @@
     position: relative;
     overflow: hidden;
 }
+.box{
+    width: 200px;
+    height: 200px;
+    background: #ecd6c7;
+    margin: 0 auto;/*區塊置中*/
+}
+p{
+    text-align:center;
+}
