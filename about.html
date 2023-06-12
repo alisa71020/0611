@@ -11,22 +11,22 @@
             background-size: 800px;
             background-position: center;
         }
-        .man-p{
+        .man-q{
             background-image: url("img/1654602563870-六一-周棋洛-A.png");
             background-repeat: no-repeat;
             background-position:center center;
         }
-        .man-op{
+        .man-oq{
             background-image: url("img/1654602539158-六一-周棋洛-B.png");
             background-repeat: no-repeat;
             background-position:center center;
         }
-        .man-np{
+        .man-nq{
             background-image: url("img/1654602594425-六一-许墨-A.png");
             background-repeat: no-repeat;
             background-position:center center;
         }
-        .man-gp{
+        .man-gq{
             background-image: url("img/1654602577338-六一-许墨-B.png");
             background-repeat: no-repeat;
             background-position:center center;
@@ -36,6 +36,25 @@
 
 </head>
 <body>
+<div class="box">
+    <h1 style="font-size:40px;  text-align:center; ">戀與製作人:奇妙咖啡廳</h1>
+    <h2 style="font-size: 20px; text-align: center;">李澤言:調製之約、白起:標記之約</h2>
+</div>
+<div class="man-q" id="sd"></div>
+<div class="man-nq" id="sl"></div>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script>
+    $(function () {
 
+        $("#sd").on("mouseup", function () {
+            $("#sd").removeClass("man-q");
+            $("#sd").addClass("man-oq");
+        })
+        $("#sl").on("mousedown", function () {
+            $("#sl").removeClass("man-nq");
+            $("#sl").addClass("man-gq");
+        })
+    });
+</script>
 </body>
 </html>
