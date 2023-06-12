@@ -3,24 +3,6 @@
     padding: 0;
     font-family: "Adobe 繁黑體 Std B";
 }
-.man-np{
-    width: 100%;
-    height: 100vh;
-    background-image: url("img/1654602650745-六一-白起-A.png");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-}
-.man-gp{
-    width: 100%;
-    height: 100vh;
-    background-image: url("img/1654602629145-六一-白起-B.png");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-}
 .box{
     width: 400px;
     height: 80px;;
